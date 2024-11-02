@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Navbar.css'
 import logo from '../../assets/clglogo.webp'
 
 const Navbar = () => {
+
+
   return (
     <nav className='container'>
         <img src={logo} alt="" className='logo'/>
