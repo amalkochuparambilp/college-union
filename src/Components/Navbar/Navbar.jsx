@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import './Navbar.css'
-import logo from '../../assets/clglogo.webp'
+import logo from '../../assets/clglogo.png'
 
 const Navbar = () => {
 
