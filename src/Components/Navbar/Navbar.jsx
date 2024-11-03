@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import './Navbar.css'
 import logo from '../../assets/clglogo.png'
+import menu from '../../assets/menu-icon.png'
+import { Link as  Link} from 'react-scroll';
+
 
 const Navbar = () => {
 
@@ -12,17 +15,23 @@ const Navbar = () => {
     });
   }, []);
 
+  const [moblieMenu, setMoblieMenu] = useState(false);
+  const toggleMenu = () => {
+    moblieMenu ? setMoblieMenu(false) : setMoblieMenu(true);
+  }
+
   return (
   <nav className={`'container' ${sticky? 'dark-nav' : ''}`}>
         <img src={logo} alt="" className='logo'/>
-        <ul>
+        <ul className={moblieMenu ? '' : 'hide-mobile-menu'}>
             <li>Home</li>
             <li>Program</li>
             <li>About us</li>
             <li>JNIAS</li>
             <li>Testimonials</li>
-            <li><button className='btn'>Contact us</button></li>
+            <li><Link to='contact' smooth={true} offset={0} duration={500} className='btn'>Contact us</Link></li>
         </ul>
+        <img src={menu} alt="" className='menu-icon' onClick={toggleMenu}/>
     </nav>
   )
 }
