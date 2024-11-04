@@ -50,8 +50,8 @@ const Testimonials = () => {
                 <div className="user-info">
                   <img src={user_2} alt=''/>
                   <div>
-                    <h3>student 2</h3>
-                    <span>course name </span>
+                    <h3>Albin K Manoj</h3>
+                    <span>BCA</span>
                   </div>
                 </div>
                 <p>In my experience all the teachers are very supportive and friendly and the placement process has been very smooth throughout. I would always be very grateful for the lifelong connections I made</p>
