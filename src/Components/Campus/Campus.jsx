@@ -5,6 +5,7 @@ import gallery_2 from '../../assets/clggallery-2.webp'
 import gallery_3 from '../../assets/clggallery-3.webp'
 import gallery_4 from '../../assets/clggallery-4.webp'
 import white_arrow from '../../assets/white-arrow.png'
+import { Link } from 'react-router-dom'
 
 const Campus = () => {
   return (
@@ -15,7 +16,9 @@ const Campus = () => {
             <img src={gallery_3} alt='' />
             <img src={gallery_4} alt='' />
         </div>
-        <button className='btn dark-btn'>See More Here <img src={white_arrow} alt='' /></button>
+        <Link to="/gallery">
+          <button className='btn dark-btn'>See More Here <img src={white_arrow} alt='' /></button>
+        </Link>
     </div>
   )
 }
