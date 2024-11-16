@@ -16,7 +16,7 @@ const Campus = () => {
             <img src={gallery_3} alt='' />
             <img src={gallery_4} alt='' />
         </div>
-        <Link to="/gallery">
+        <Link to="/akpdevz">
           <button className='btn dark-btn'>See More Here <img src={white_arrow} alt='' /></button>
         </Link>
     </div>
