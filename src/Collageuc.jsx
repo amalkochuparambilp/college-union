@@ -8,7 +8,7 @@ const Collagecu = () => {
         <HashRouter>
             <Routes>
                 <Route path="/" element={<App />} />
-                <Route path="/akpdevz" element={<Dev />} />
+                <Route path="akpdevz" element={<Dev />} />
             </Routes>
         </HashRouter>
     );
