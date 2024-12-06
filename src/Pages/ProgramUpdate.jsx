@@ -5,6 +5,7 @@ import Footer from "./Components/Footer/Footer";
 
 const ProgramUpdate = () => {
     return(
+<div>
 <Navbar />
 <div className="about">
             <div className="about-right">
@@ -14,6 +15,7 @@ const ProgramUpdate = () => {
         </div>
 </div>
 <Footer />
+</div>
     )
 }
 
