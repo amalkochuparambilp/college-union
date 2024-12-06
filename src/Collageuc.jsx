@@ -9,6 +9,7 @@ const Collagecu = () => {
             <Routes>
                 <Route path="/" element={<App />} />
                 <Route path="akpdevz" element={<Dev />} />
+                <Route path="unionprogram" element={<ProgamUpdate />} />
             </Routes>
         </HashRouter>
     );
