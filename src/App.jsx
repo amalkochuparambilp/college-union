@@ -24,7 +24,7 @@ const App = () => {
         <Campus />
         <Title subTitle='Testimonials' title='Jnias Students Says'/>
         <Testimonials />
-<Title subTitle='JNIAS COLLEGE UNION MEMBERS'/>
+<Title subTitle='JNIAS COLLEGE UNION' title='members'/>
 <Programs />
         <Title subTitle='Contact Us' title='Get In Touch'/>
         <Contact />
