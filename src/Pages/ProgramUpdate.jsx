@@ -10,4 +10,4 @@ const ProgramUpdate = () => {
     )
 }
 
-export default ProgamUpdate
+export default ProgramUpdate
