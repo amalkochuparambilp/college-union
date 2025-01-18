@@ -1,5 +1,6 @@
 import React from "react"
 import './Admin.css'
+import { Link } from "react-router-dom";
 
 const Admin = () => {
   return (
@@ -12,7 +13,7 @@ const Admin = () => {
                 <input type="submit" value="Log In" />
                 <div class="links">
                      <a href="#">Forgot password</a>
-                     <a href="#"></a>
+                     <Link to='/'>Back</Link>
                 </div>
         </form>
     </div>
