@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -8,6 +9,11 @@ const Footer = () => {
         <ul>
             <li>Dev by AMAL KP BCA 2YEAR</li>
             <li>Contact us</li>
+            <li>
+              <Link to="/admin">
+              ...
+              </Link>
+            </li>
         </ul>
     </div>
   )
