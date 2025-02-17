@@ -13,8 +13,7 @@ const Collagecu = () => {
                 <Route path="/" element={<App />} />
                 <Route path="akpdevz" element={<Dev />} />
                 <Route path="unionprogram" element={<ProgramUpdate />} />
-                <Route path="admin" element={<Admin />} />
-                <Route path="artsday" element={<Ambiora />} />
+                <Route path="admin" element={<Ambiora />} />
             </Routes>
         </HashRouter>
     );
