@@ -4,6 +4,7 @@ import App from "./App";
 import Dev from "./Pages/dev";
 import ProgramUpdate from "./Pages/ProgramUpdate";
 import Admin from "./Pages/Admin";
+import Ambiora from "./Pages/Ambiora";
 
 const Collagecu = () => {
     return (
@@ -13,6 +14,7 @@ const Collagecu = () => {
                 <Route path="akpdevz" element={<Dev />} />
                 <Route path="unionprogram" element={<ProgramUpdate />} />
                 <Route path="admin" element={<Admin />} />
+                <Route path="artsday" element={<Ambiora />} />
             </Routes>
         </HashRouter>
     );
