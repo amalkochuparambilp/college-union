@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes, Link, BrowserRouter } from "react-router-dom";
+import { Route, Routes, Link, HashRouter } from "react-router-dom";
 import App from "./App";
 import Dev from "./Pages/dev";
 import Admin from "./Pages/Admin"; 
@@ -8,7 +8,7 @@ import ErrorPage from "./Pages/ErrorPage";
 
 const Collagecu = () => {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Routes>
                 <Route path="*" element={ <ErrorPage /> } />
                 <Route path="/" element={<App />} />
@@ -16,7 +16,7 @@ const Collagecu = () => {
                 <Route path="admin" element={<Admin />} />
                 <Route path="artsday" element={<Ambiora />} />
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     );
 };
 export default Collagecu;
