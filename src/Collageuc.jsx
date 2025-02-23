@@ -14,7 +14,6 @@ const Collagecu = () => {
                 <Route path="*" element={ <ErrorPage /> } />
                 <Route path="/" element={<App />} />
                 <Route path="akpdevz" element={<Dev />} />
-                <Route path="unionprogram" element={<ProgramUpdate />} />
                 <Route path="admin" element={<Admin />} />
                 <Route path="artsday" element={<Ambiora />} />
             </Routes>
