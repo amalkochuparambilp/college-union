@@ -7,7 +7,7 @@ const Footer = () => {
     <div className='footer'>
         <p>© 2024-25 JNIAS COLLAGE UNION.</p>
         <ul>
-            <li>Dev by AMAL KP BCA 2YEAR</li>
+            <li>Dev by AMAL KP BCA 3YEAR</li>
             <li>Contact us</li>
             <li>
               <Link to="/admin">
