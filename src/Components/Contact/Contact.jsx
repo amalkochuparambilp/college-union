@@ -40,7 +40,7 @@ const Contact = () => {
             <p>Feel free to contact us</p>
             <ul>
                 <li><img src={mail_icon} alt=''/>amalkochuparambilp@gmail.com</li>
-                <li><img src={phone_icon} alt=''/>+91 12345 67890</li>
+                <li><img src={phone_icon} alt=''/>+91 751021318</li>
                 <li><img src={location_icon} alt=''/>balagram</li>
             </ul>
         </div>
